@@ -1,0 +1,31 @@
+.stats {
+  display: flex;
+  justify-content: center;
+
+  height: 100px;
+  font-family: Roboto Condensed, sans-serif;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+
+  width: calc(100% / 3);
+  padding: 20px 0;
+
+  background-color: rgba(156, 151, 151, 0.664);
+}
+
+.label {
+  font-size: 17px;
+  color: rgb(131, 127, 127);
+  margin-bottom: 10px;
+}
+
+.quantity {
+  margin-top: 5px;
+
+  font-size: 20px;
+  color: rgb(55, 56, 58);
+  font-weight: 500;
+}
